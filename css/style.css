@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 522px;
+    max-height: 827px;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
