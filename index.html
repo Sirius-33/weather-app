@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Daniel Hjermitslev">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Weather App | October 2020</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <input type="text" autocomplete="off" class="search-box"
+             placeholder="Search for a city.." />
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Roskilde, DK</div>
+                <div class="date">Monday 5 October 2020</div>
+            </section>
+            <div class="current">
+                <div class="temp">15<span>°c</span></div>
+                <div class="weather">Cloudy</div>
+                <div class="hi-low">7°c / 18°c</div>
+            </div>
+        </main>
+    </div>
 </body>
 <script src="./js/app.js" defer></script>
 </html>
