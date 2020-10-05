@@ -24,6 +24,7 @@ body {
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 25px;
+  transition: 15s ease-out;
 }
 
 header {
@@ -66,7 +67,7 @@ header input {
 }
 
 header input:focus {
-  background-color: rgba(250, 58, 44, 0.6);
+  background-color: rgba(175, 17, 17, 0.6); /* If you wish to use a lighter red rgba(250, 58, 44, 0.6) */
   color: #FFF;
 }
 
