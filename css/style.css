@@ -24,4 +24,24 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 15px 15px;
 }
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(240, 248, 255, 0.3);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: aliceblue;
+    opacity: 1; /* Firefox */
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: aliceblue;
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: aliceblue;
+  }
