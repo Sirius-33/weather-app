@@ -24,7 +24,7 @@ body {
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 25px;
-  transition: 10s ease-out;
+  transition: 6s ease-out;
 }
 
 header {
