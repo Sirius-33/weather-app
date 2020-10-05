@@ -11,22 +11,24 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <input type="text" autocomplete="off" class="search-box"
-             placeholder="Search for a city.." />
-        </header>
-        <main>
-            <section class="location">
-                <div class="city">Roskilde, DK</div>
-                <div class="date">Monday 5 October 2020</div>
-            </section>
-            <div class="current">
-                <div class="temp">15<span>°c</span></div>
-                <div class="weather">Cloudy</div>
-                <div class="hi-low">7°c / 18°c</div>
-            </div>
-        </main>
+        <div class="box-shadow">
+            <header>
+                <input label="search-box" type="text" autocomplete="off" class="search-box"
+                 placeholder="Search for a city.." />
+            </header>
+            <main>
+                <section class="location">
+                    <div class="city">Roskilde, DK</div>
+                    <div class="date">Monday 5 October 2020</div>
+                </section>
+                <div class="current">
+                    <div class="temp">15<span>°c</span></div>
+                    <div class="weather">Cloudy</div>
+                    <div class="hi-low">7°c / 18°c</div>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
-<script src="./js/app.js" defer></script>
+<script src="./js/app.js" defer type="module"></script>
 </html>
